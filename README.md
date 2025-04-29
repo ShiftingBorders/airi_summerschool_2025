@@ -31,7 +31,7 @@ Note: You must have [Ollama](https://ollama.com/) installed and running to use t
 The main script is:
 
 ```bash
-python no_repeated_autoplay_opti.py
+agent_trust/no_repeated_autoplay_opti.py
 ```
 
 This script:

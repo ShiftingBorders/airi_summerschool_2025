@@ -16,7 +16,7 @@ We focus on evaluating **small open-source LLMs (≤7B)** in **Dictator Games** 
 </p>
 
 **Figure 1:**  
-*Distribution of the amount sent by LLM agents and humans in the Dictator Game.*
+*Distribution of the amount sent by LLM agents in the Dictator Game.*
 
 ---
 
@@ -25,7 +25,15 @@ We focus on evaluating **small open-source LLMs (≤7B)** in **Dictator Games** 
 </p>
 
 **Figure 2:**  
-*Average amount sent by LLM agents and humans as the trustor in the Dictator Game.*  
+*Average amount sent by LLM agents in the Dictator Game.*  
+*(Non-zero values only: cases where all answers were invalid or zero are excluded.)*
+
+<p align="center">
+  <img src="./image/DictatorGameStats3.png" alt="Average Amount Sent Distribution (Non-zero)">
+</p>
+
+**Figure 3:**  
+*Average amount sent by LLM agents in the Dictator Game.*  
 *(Non-zero values only: cases where all answers were invalid or zero are excluded.)*
 
 ## 📦 Installation

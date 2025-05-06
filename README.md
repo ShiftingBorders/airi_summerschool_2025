@@ -9,6 +9,25 @@ We focus on evaluating **small open-source LLMs (≤7B)** in **Dictator Games** 
 - trust level variance across personas and demographics,
 - model-dependent bias and reliability.
 
+## 📈 Results
+
+<p align="center">
+  <img src="./image/DictatorGameStats.png" alt="Amount Sent Distribution">
+</p>
+
+**Figure 1:**  
+*Distribution of the amount sent by LLM agents and humans in the Dictator Game.*
+
+---
+
+<p align="center">
+  <img src="./image/DictatorGameStats2.png" alt="Average Amount Sent Distribution (Non-zero)">
+</p>
+
+**Figure 2:**  
+*Average amount sent by LLM agents and humans as the trustor in the Dictator Game.*  
+*(Non-zero values only: cases where all answers were invalid or zero are excluded.)*
+
 ## 📦 Installation
 
 You can install dependencies using either:
@@ -31,7 +50,7 @@ Note: You must have [Ollama](https://ollama.com/) installed and running to use t
 The main script is:
 
 ```bash
-agent_trust/no_repeated_autoplay_opti.py
+python no_repeated_autoplay_opti.py
 ```
 
 This script:

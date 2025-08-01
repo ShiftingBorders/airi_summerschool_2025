@@ -1,6 +1,6 @@
 # Trust Behavior Simulation with Small LLMs
 
-This project replicates and extends experiments from the paper  
+This project replicates and extends some experiments from the paper  
 **“Can Large Language Model Agents Simulate Human Trust Behavior?”**  
 [NeurIPS 2024 Paper](https://proceedings.neurips.cc/paper_files/paper/2024/hash/1cb57fcf7ff3f6d37eebae5becc9ea6d-Abstract-Conference.html)
 
